@@ -1,0 +1,38 @@
+name: city_tour_guide_app
+description: "The City Tour Guide App provides users with information about local attractions, restaurants, and accommodations in a specific city. It allows users to explore, bookmark, and review attractions while offering offline capabilities for key features."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-209.0.dev
+dependencies:
+  flutter:
+    sdk: flutter
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # State Management
+  provider: ^6.1.1
+
+  # Authentication
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+
+  # UI & Design
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.0
+
+  # Utilities
+  cached_network_image: ^3.3.0
+  location: ^5.0.3
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
